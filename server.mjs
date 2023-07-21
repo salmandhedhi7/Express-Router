@@ -4,8 +4,8 @@ import path from 'path';
 
 const __dirname = path.resolve();
 
-import apiv1Router from './apiv1/script.js'
-import apiv2Router from './apiv2/script.js'
+import apiv1Router from './apiv1/script.mjs'
+import apiv2Router from './apiv2/script.mjs'
 
 
 const app = express()
