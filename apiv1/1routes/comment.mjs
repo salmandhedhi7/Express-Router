@@ -47,7 +47,7 @@ router.get('/comment/:postId/:commentId', (req, res, next) => {
         padding: 2em 1em;
         margin: 0em;
         max-width: 320px;
-        border: 1px solid #fff;
+        border: 3px solid #000;
         height: 500px;
     }
     
@@ -87,7 +87,7 @@ router.get('/comment/:postId/:commentId', (req, res, next) => {
     }
     
     table{
-        border: 1px solid #fff;
+        border: 3px solid #000000;
     }
     
     td{
@@ -113,7 +113,7 @@ router.get('/comment/:postId/:commentId', (req, res, next) => {
         <h3 class="center">This Is Comment Page</h3>
         <h3 class="center" id="date"></h3>
         <p class="center">Thanks For Visiting Regards! Muhammad Salman&copy;</p>
-        <table>
+ <table>
         <tr>
             <td>1</td>
             <td>Login V1</td>
@@ -124,52 +124,53 @@ router.get('/comment/:postId/:commentId', (req, res, next) => {
         <tr>
             <td>2</td>
             <td>Signup V1</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v1/Signup"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/signup"><i class="bi bi-arrow-up-right-square"></i></a></td>
             <td>Signup V2</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v2/Signup"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/signup"><i class="bi bi-arrow-up-right-square"></i></a></td>
         </tr>
         <tr>
             <td>3</td>
             <td>Feed V1</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v1/Feed"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/feed"><i class="bi bi-arrow-up-right-square"></i></a></td>
             <td>Feed V2</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v2/Feed"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/feed"><i class="bi bi-arrow-up-right-square"></i></a></td>
         </tr>
         <tr>
             <td>4</td>
             <td>Post V1</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v1/Post"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/post"><i class="bi bi-arrow-up-right-square"></i></a></td>
             <td>Post V2</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v2/Post"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/post"><i class="bi bi-arrow-up-right-square"></i></a></td>
         </tr>
         <tr>
             <td>5</td>
             <td>Posts V1</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v1/Posts"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/posts"><i class="bi bi-arrow-up-right-square"></i></a></td>
             <td>Posts V2</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v2/Posts"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/posts"><i class="bi bi-arrow-up-right-square"></i></a></td>
         </tr>
         <tr>
             <td>6</td>
             <td>Comment V1</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v1/Comment"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/comment"><i class="bi bi-arrow-up-right-square"></i></a></td>
             <td>Comment V2</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v2/Comment"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/comment"><i class="bi bi-arrow-up-right-square"></i></a></td>
         </tr>
         <tr>
             <td>7</td>
             <td>Comments V1</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v1/Comments"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/comments"><i class="bi bi-arrow-up-right-square"></i></a></td>
             <td>Comments V2</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v2/Comments"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/comments"><i class="bi bi-arrow-up-right-square"></i></a></td>
         </tr>
     </table>
+
         
-        <a class="center" href="https://cautious-pear-fawn.cyclic.app">Back To Home</a>
+        <a class="center" href="https://dhedhi.cyclic.app">Back To Home</a>
         
 <script>
             setInterval(() => {
-                let currentTime = moment().format("dddd MMMM Do YYYY, h:mm:ss a");
+                let currentTime = moment().format("dddd MMMM Do YYYY");
     
                 document.getElementById("date").innerText = currentTime;
             }, 1);
@@ -224,7 +225,7 @@ router.get('/comments/:postId', (req, res, next) => {
         padding: 2em 1em;
         margin: 0em;
         max-width: 320px;
-        border: 1px solid #fff;
+        border: 3px solid #000;
         height: 500px;
     }
     
@@ -264,7 +265,7 @@ router.get('/comments/:postId', (req, res, next) => {
     }
     
     table{
-        border: 1px solid #fff;
+        border: 3px solid #000000;
     }
     
     td{
@@ -290,7 +291,7 @@ router.get('/comments/:postId', (req, res, next) => {
         <h3 class="center">This Is Comments Page</h3>
         <h3 class="center" id="date"></h3>
         <p class="center">Thanks For Visiting Regards! Muhammad Salman&copy;</p>
-      <table>
+        <table>
         <tr>
             <td>1</td>
             <td>Login V1</td>
@@ -301,53 +302,52 @@ router.get('/comments/:postId', (req, res, next) => {
         <tr>
             <td>2</td>
             <td>Signup V1</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v1/Signup"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/signup"><i class="bi bi-arrow-up-right-square"></i></a></td>
             <td>Signup V2</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v2/Signup"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/signup"><i class="bi bi-arrow-up-right-square"></i></a></td>
         </tr>
         <tr>
             <td>3</td>
             <td>Feed V1</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v1/Feed"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/feed"><i class="bi bi-arrow-up-right-square"></i></a></td>
             <td>Feed V2</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v2/Feed"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/feed"><i class="bi bi-arrow-up-right-square"></i></a></td>
         </tr>
         <tr>
             <td>4</td>
             <td>Post V1</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v1/Post"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/post"><i class="bi bi-arrow-up-right-square"></i></a></td>
             <td>Post V2</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v2/Post"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/post"><i class="bi bi-arrow-up-right-square"></i></a></td>
         </tr>
         <tr>
             <td>5</td>
             <td>Posts V1</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v1/Posts"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/posts"><i class="bi bi-arrow-up-right-square"></i></a></td>
             <td>Posts V2</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v2/Posts"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/posts"><i class="bi bi-arrow-up-right-square"></i></a></td>
         </tr>
         <tr>
             <td>6</td>
             <td>Comment V1</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v1/Comment"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/comment"><i class="bi bi-arrow-up-right-square"></i></a></td>
             <td>Comment V2</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v2/Comment"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/comment"><i class="bi bi-arrow-up-right-square"></i></a></td>
         </tr>
         <tr>
             <td>7</td>
             <td>Comments V1</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v1/Comments"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/comments"><i class="bi bi-arrow-up-right-square"></i></a></td>
             <td>Comments V2</td>
-            <td><a href="https://dhedhi.cyclic.app/api/v2/Comments"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/comments"><i class="bi bi-arrow-up-right-square"></i></a></td>
         </tr>
     </table>
-
         
-        <a class="center" href="https://cautious-pear-fawn.cyclic.app">Back To Home</a>
+        <a class="center" href="https://dhedhi.cyclic.app">Back To Home</a>
         
 <script>
             setInterval(() => {
-                let currentTime = moment().format("dddd MMMM Do YYYY, h:mm:ss a");
+                let currentTime = moment().format("dddd MMMM Do YYYY");
     
                 document.getElementById("date").innerText = currentTime;
             }, 1);
