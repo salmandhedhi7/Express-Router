@@ -113,58 +113,57 @@ router.get('/comment/:postId/:commentId', (req, res, next) => {
         <h3 class="center">This Is Comment Page</h3>
         <h3 class="center" id="date"></h3>
         <p class="center">Thanks For Visiting Regards! Muhammad Salman&copy;</p>
-        <table>
-            <tr>
-                <td>1</td>
-                <td>Login V1</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-                <td>Login V2</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Signup V1</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-                <td>Signup V2</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Feed V1</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-                <td>Feed V2</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Post V1</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-                <td>Post V2</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Posts V1</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-                <td>Posts V2</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>Comment V1</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-                <td>Comment V2</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>Comments V1</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-                <td>Comments V2</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-            </tr>
-        </table>
-
+ <table>
+        <tr>
+            <td>1</td>
+            <td>Login V1</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/login"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td>Login V2</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/login"><i class="bi bi-arrow-up-right-square"></i></a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Signup V1</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/Signup"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td>Signup V2</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/Signup"><i class="bi bi-arrow-up-right-square"></i></a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Feed V1</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/Feed"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td>Feed V2</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/Feed"><i class="bi bi-arrow-up-right-square"></i></a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Post V1</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/Post"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td>Post V2</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/Post"><i class="bi bi-arrow-up-right-square"></i></a></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Posts V1</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/Posts"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td>Posts V2</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/Posts"><i class="bi bi-arrow-up-right-square"></i></a></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Comment V1</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/Comment"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td>Comment V2</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/Comment"><i class="bi bi-arrow-up-right-square"></i></a></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Comments V1</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/Comments"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td>Comments V2</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/Comments"><i class="bi bi-arrow-up-right-square"></i></a></td>
+        </tr>
+    </table>
 
         
         <a class="center" href="https://cautious-pear-fawn.cyclic.app">Back To Home</a>
@@ -293,58 +292,56 @@ router.get('/comments/:postId', (req, res, next) => {
         <h3 class="center" id="date"></h3>
         <p class="center">Thanks For Visiting Regards! Muhammad Salman&copy;</p>
         <table>
-            <tr>
-                <td>1</td>
-                <td>Login V1</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-                <td>Login V2</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Signup V1</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-                <td>Signup V2</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Feed V1</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-                <td>Feed V2</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Post V1</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-                <td>Post V2</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Posts V1</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-                <td>Posts V2</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>Comment V1</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-                <td>Comment V2</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>Comments V1</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-                <td>Comments V2</td>
-                <td><a href=""><i class="bi bi-arrow-up-right-square"></i></a></td>
-            </tr>
-        </table>
-
-
+        <tr>
+            <td>1</td>
+            <td>Login V1</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/login"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td>Login V2</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/login"><i class="bi bi-arrow-up-right-square"></i></a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Signup V1</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/Signup"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td>Signup V2</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/Signup"><i class="bi bi-arrow-up-right-square"></i></a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Feed V1</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/Feed"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td>Feed V2</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/Feed"><i class="bi bi-arrow-up-right-square"></i></a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Post V1</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/Post"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td>Post V2</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/Post"><i class="bi bi-arrow-up-right-square"></i></a></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Posts V1</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/Posts"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td>Posts V2</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/Posts"><i class="bi bi-arrow-up-right-square"></i></a></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Comment V1</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/Comment"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td>Comment V2</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/Comment"><i class="bi bi-arrow-up-right-square"></i></a></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Comments V1</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v1/Comments"><i class="bi bi-arrow-up-right-square"></i></a></td>
+            <td>Comments V2</td>
+            <td><a href="https://dhedhi.cyclic.app/api/v2/Comments"><i class="bi bi-arrow-up-right-square"></i></a></td>
+        </tr>
+    </table>
         
         <a class="center" href="https://cautious-pear-fawn.cyclic.app">Back To Home</a>
         
