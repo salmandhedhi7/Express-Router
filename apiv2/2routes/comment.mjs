@@ -19,6 +19,7 @@ router.get('/comment', (req, res, next) => {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
         <!-- icons -->
+        <link rel="shortcut icon" href="./images.png" type="image/x-icon">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
         </link>
         <!-- moment js -->
@@ -197,6 +198,7 @@ router.get('/comments', (req, res, next) => {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
         <!-- icons -->
+        <link rel="shortcut icon" href="./images.png" type="image/x-icon">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
         </link>
         <!-- moment js -->
