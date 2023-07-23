@@ -182,7 +182,7 @@ router.get('/login', (req, res, next) => {
 
 
 
-       express-router.get('/signup', (req, res, next) => {
+       router.get('/signup', (req, res, next) => {
             res.send(`<!DOCTYPE html>
             <html>
             <head>
