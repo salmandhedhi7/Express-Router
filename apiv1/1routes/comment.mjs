@@ -2,7 +2,7 @@ import express from 'express';
 let router = express.Router()
 
 // GET     /api/v2/comment/:postId/:commentId
-router.get('/comment/:postId/:commentId', (req, res, next) => {
+router.get('/comment', (req, res, next) => {
     
     res.send(`<!DOCTYPE html>
     <html>
@@ -181,7 +181,7 @@ router.get('/comment/:postId/:commentId', (req, res, next) => {
         })
 
           // GET     /api/v2/comments/:postId
-router.get('/comments/:postId', (req, res, next) => {
+router.get('/comments', (req, res, next) => {
     res.send(`<!DOCTYPE html>
     <html>
     <head>

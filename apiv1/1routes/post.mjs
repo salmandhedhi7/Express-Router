@@ -183,7 +183,7 @@ router.get('/post', (req, res, next) => {
 
 
         // GET     /api/posts/:userId
-router.get('/posts/:userId/', (req, res, next) => {
+router.get('/posts', (req, res, next) => {
     res.send(`<!DOCTYPE html>
     <html>
     <head>

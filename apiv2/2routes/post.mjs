@@ -2,7 +2,7 @@ import express from 'express';
 let router = express.Router()
 
 // GET     /api/post/:userId
-router.get('/post/:userId/postId', (req, res, next) => {
+router.get('/post', (req, res, next) => {
     
     res.send(`<!DOCTYPE html>
     <html>
@@ -183,7 +183,7 @@ router.get('/post/:userId/postId', (req, res, next) => {
 
 
         // GET     /api/posts/:userId
-router.get('/posts/:userId/', (req, res, next) => {
+router.get('/posts', (req, res, next) => {
     res.send(`<!DOCTYPE html>
     <html>
     <head>
