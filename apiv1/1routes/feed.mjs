@@ -48,7 +48,7 @@ router.get('/feed/:userId', (req, res, next) => {
         margin: 0em;
         max-width: 320px;
         border: 3px solid #000;
-        height: 500px;
+        height: 656px;
     }
     
     p,
