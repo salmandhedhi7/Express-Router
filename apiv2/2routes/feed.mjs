@@ -2,7 +2,7 @@ import express from 'express';
 let router = express.Router()
 
 // GET     /api/feed/:userId
-expressrouter.get('/feed/:userId', (req, res, next) => {
+router.get('/feed/:userId', (req, res, next) => {
     
     res.send(`<!DOCTYPE html>
     <html>
